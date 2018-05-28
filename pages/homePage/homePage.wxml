@@ -1,0 +1,37 @@
+<!--pages/homePage/homePage.wxml-->
+<view class="container-box" style="background-image:{{bgUrl}}">
+  <image src="{{userLogs}}" class="userLogs" mode="widthFix" bindtap='userCenter'></image>
+  <view class="btnBox">
+    <image src="{{scanBtn}}" class="scanBtn" mode="widthFix" bindtap="scanCode"></image>  
+  </view>
+  
+  <!--正在共享提示部分-->
+  <block wx:if="{{shareBoxWhether}}">
+    <view class="shareBox">
+      <text class="shareText">该充电宝正在共享中,请扫码其他充电宝</text>
+    </view>
+  </block>
+
+  <!--开启失败提示部分-->
+  <block wx:if="{{openFailWhether}}">
+    <view class="openFailBox">
+      <text class="openFailText">开启失败,试试摇一摇充电宝或换一个充电宝</text>
+    </view>
+  </block>
+
+
+  <!--扫描错误码提示-->
+  <block wx:if="{{failCodeWheter}}">
+    <view class="failCodeBox">
+      <text class="failCodeText">请扫码正确二维码</text>
+    </view>
+  </block>
+
+  <!--正在蓄能提示-->
+  <block wx:if="{{storageWhether}}">
+    <view class="storageBox">
+      <text class="storageText">充电宝正在蓄能中,蓄能结束才能使用</text>
+    </view>
+  </block>
+</view>
+

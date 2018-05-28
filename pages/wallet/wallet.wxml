@@ -1,0 +1,94 @@
+<!--pages/wallet/wallet.wxml-->
+
+ <view class='userCenter01' style="flex-direction: column;">
+      <image src='../image/backback@3x.png' class='backback'></image>
+      <image src='../image/bar.png' class='bar'></image>
+      <image src='../image/logistics@3x.png' class='logistics'></image>
+ </view>
+
+<view class='back01'  style="display:flex;flex-direction:row;">
+  
+  <view class='back02'>
+  </view>
+
+  <view class='back03' style='font-size:30rpx;color:#414141'>退还说明 
+  </view>
+
+</view>
+
+  <view class='back04' style='color:#e5e5e5'>
+   --------------------------------------
+  </view>
+
+  <form bindsubmit="formBindsubmit" bindreset="formReset">
+        <text class="back05" style='color:#999999;font-size:26rpx'> 用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议用户服务协议
+      </text>
+  </form>
+
+
+
+  <view class='back20'  style="display:flex;flex-direction:row;">
+  <view class='back06'  style="display:flex;flex-direction:row;">
+
+   <view class='back07' style='font-size:26rpx;color:#414141;'>
+   寄回地址:
+  </view>
+  
+  <view class='back08' style='font-size:26rpx;color:#999999'>
+   江苏江苏江苏江苏江苏江苏江苏江苏江苏
+  </view>
+  </view>
+
+    <view class='back21'  style="display:flex;flex-direction:row;">
+
+   <view class='back07' style='font-size:26rpx;color:#414141;'>
+   收件人名:
+  </view>
+  
+  <view class='back08' style='font-size:26rpx;color:#999999'>
+   冯友福
+  </view>
+  </view>
+
+  <view class='back22'  style="display:flex;flex-direction:row;">
+
+   <view class='back07' style='font-size:26rpx;color:#414141;'>
+   联系电话:
+  </view>
+  
+  <view class='back08' style='font-size:26rpx;color:#999999'>
+   18710925219
+  </view>
+  </view>
+</view>
+
+<view class='back24'  style="display:flex;flex-direction:row;">
+  
+  <view class='back02'>
+  </view>
+
+  <view class='back03' style='font-size:30rpx;color:#414141'>物流信息 
+  </view>
+
+</view>
+
+  <form bindsubmit="formSubmit">
+
+  <view class='flex-row' style="display: flex;flex-direction: column;">
+    
+    
+        <view style='display:flex;width:100%' class="iPhone04">
+          <label style='color:#414141;font-size:26rpx;width:20%'>物流公司:</label>
+          <input class='input' name="userName" type="text" placeholder-style='color:bfbfbf' maxlength='30' placeholder="请填写物流公司" style='color:#414141;font-size:26rpx;width:80%'/>
+        </view>
+
+        <view style="display:flex;width:100%" class="iPhone04">
+          <label style='color:#414141;font-size:26rpx;width:20%'>物流单号:</label>
+          <input class='input' name="orderNumber" type="text" maxlength='100' placeholder="请填写物流单号" style='color:#414141;font-size:26rpx;width:80%'/>
+        </view>
+    <view class="iPhone03">
+      <button type="primary" style='width:600rpx'bindtap="primary" form-type='submit'> 提交 </button> 
+    </view>
+
+  </view>
+</form>

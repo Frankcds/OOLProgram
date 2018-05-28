@@ -1,0 +1,21 @@
+{
+  "pages":[
+ 
+
+    "pages/homePage/homePage",
+    "pages/index/index",
+    "pages/userCenter/userCenter",
+    "pages/wallet/wallet",
+    "pages/side/userAgree",
+    "pages/fingerpost/fingerpost",
+    "pages/side/iponeLogin"
+    
+    
+  ],
+  "window":{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#373a41",
+  "navigationBarTitleText": "OOL",
+  "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,53 @@
+/* pages/side/iponeLogin.wxss */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row{
+  border-top: 50rpx;
+  width:100%;
+}
+.WeChat{
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.userProtocol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  color: black;
+}
+.usp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+}
+
+.iPhone03{
+  display: flex;
+  justify-content:center;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+}
+
+.iPhone09{
+  display: flex;
+  justify-content:center;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+  width: 30%;
+}
+
+.validate{
+  width:2000rpx;
+  height: 100rpx;
+}
+
+

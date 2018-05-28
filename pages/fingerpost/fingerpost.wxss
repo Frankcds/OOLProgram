@@ -1,0 +1,27 @@
+
+.item1{
+    margin-top: 30rpx;
+    margin-left: 40rpx;
+}
+
+.item2{
+    margin-left: 10rpx;
+    line-height: 50rpx;
+}
+
+.item3{
+  margin-top: 20rpx;
+}
+
+.container1{
+    display: flex;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    border: 0.5rpx dashed #e5e5e5;
+    background-color: #efeff4;
+}
+
+.userCenter02{
+  border-left: 20rpx;
+}

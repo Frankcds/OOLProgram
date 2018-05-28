@@ -1,0 +1,16 @@
+<!--index.wxml-->
+  <view class="login">
+      <image src="../image/u02.png" style='width:100%' mode="scaleToFill"></image>
+  <view class="login01">
+    <image src="../image/login.png" class="login02" bindtap="modalcnt" mode="widthFix"></image>
+  </view>
+  </view>
+
+  <view class="userProtocol">
+      <text class="userAgree" style='color:#888888'>登录即表示阅读并同意
+      </text>
+    <view>
+        <navigator class="usp" open-type="navigate" url="../side/userAgree">《用户服务协议》
+        </navigator>
+    </view>
+  </view>

@@ -1,0 +1,60 @@
+ <view class='userCenter01'style="display:flex;flex-direction: column;">
+
+    <view class='userCenter05'>
+    <image src='{{userInfo.avatarUrl}}'  style='width:180rpx;height:180rpx' mode="widthFix" class='userCenter06'></image>
+    </view>
+
+    <view class='userCenter07'>
+    {{userInfo.nickName}}
+    </view>
+ </view>
+    
+<view class='flex-view-item'>
+
+  <view class='container1'style="display:flex;flex-direction: row;" bindtap='order'>
+    <view class='item1'>
+        <image src='../image/order@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+
+      <view class="item2" style='font-size:30rpx;color:#666666'>我的订单</view>
+      
+    <view class='item3'>
+        <image src='../image/arrow.png' style='width:30rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+  </view>
+
+  <view class='container1'style="display:flex;flex-direction: row;" bindtap='wallet'>
+    <view class='item1'>
+        <image src='../image/back@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+
+      <view class="item2" style='font-size:30rpx;color:#666666'>退还充电宝</view>
+      
+    <view class='item3'>
+        <image src='../image/arrow.png' style='width:30rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+  </view>
+  
+    <view class='container1'style="display:flex;flex-direction: row;"  bindtap='fingerpost'>
+    <view class='item1'>
+        <image src='../image/apply@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+
+      <view class="item2" style='font-size:30rpx;color:#666666'>使用指南</view>
+      
+    <view class='item3'>
+        <image src='../image/arrow.png' style='width:30rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+  </view>
+
+    <view class='container1'style="display:flex;flex-direction: row;" bindtap='agreement'>
+    <view class='item1'>
+        <image src='../image/agreement@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+      <view class="item2" style='font-size:30rpx;color:#666666'>用户服务协议</view>
+      
+    <view class='item3'>
+        <image src='../image/arrow.png' style='width:30rpx;height:20rpx' mode="widthFix"></image>
+    </view>
+  </view>
+</view>  

@@ -1,0 +1,46 @@
+<view class='flex-view-item'>
+
+  <view class='container1'style="display:flex;flex-direction: row;" bindtap='fingerpost01'>
+  <view class='item1'>
+      <view  style="display:flex;flex-direction:row;">
+        <image src='../image/Q@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+        <view class="item2" style='font-size:30rpx;color:#414141;width:200rpx'>问题?</view>
+      </view>
+
+      <view class='item3' style="display:flex;flex-direction:row;">
+        <image src='../image/A@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+        <view class="item2" style='font-size:30rpx;color:#999999;width:200rpx'>答案</view>
+      </view>
+  </view>
+  </view>
+
+
+  <view class='container1'style="display:flex;flex-direction: row;" bindtap='fingerpost02'>
+  <view class='item1'>
+      <view  style="display:flex;">
+        <image src='../image/Q@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+        <view class="item2" style='font-size:30rpx;color:#414141;width:200rpx'>问题?</view>
+      </view>
+
+      <view  class='item3' style="display:flex;flex-direction:row;">
+        <image src='../image/A@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+        <view class="item2" style='font-size:30rpx;color:#999999;width:200rpx'>答案</view>
+      </view>
+  </view>
+  </view>
+
+
+  <view class='container1'style="display:flex;flex-direction: row;" bindtap='fingerpost03'>
+  <view class='item1'>
+      <view  style="display:flex;flex-direction:row;">
+        <image src='../image/Q@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+        <view class="item2" style='font-size:30rpx;color:#414141;width:200rpx'>问题?</view>
+      </view>
+
+      <view  class='item3'  style="display:flex;flex-direction:row;">
+        <image src='../image/A@3x.png' style='width:50rpx;height:20rpx' mode="widthFix"></image>
+        <view class="item2" style='font-size:30rpx;color:#999999;width:200rpx'>答案</view>
+      </view>
+  </view>
+  </view>
+</view> 
